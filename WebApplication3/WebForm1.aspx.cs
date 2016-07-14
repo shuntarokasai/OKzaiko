@@ -414,50 +414,6 @@ namespace WebApplication3
             }
 
 
-
-
-            //var context = new Model1();
-
-            //var querys =  from x in context.zaikoes
-            //              join y in context.SHOPs on x.店舗コード equals y.店舗コード
-            //              join z in context.goods on x.商品コード equals z.商品コード
-            //              where x.商品コード == productclick
-            //              orderby x.店舗コード
-            //              select new tablejoin()
-            //              {
-            //                  shop = y,
-            //                  good = z,
-            //                  JAN = x.JAN,
-            //                  商品コード = x.商品コード,
-            //                  商品名 = z.商品名,
-            //                  標準上代 = z.標準上代,
-            //                  在庫数 = x.在庫数,
-            //                  店舗コード = x.店舗コード,
-            //                  店舗名 = y.店舗名
-
-            //              };
-
-            //if (string.IsNullOrEmpty(productcode) & string.IsNullOrEmpty(shopname)) 
-            //{
-
-            //    return querys;
-            //}
-            //else
-            //if (string.IsNullOrEmpty(productcode))
-            //{
-            //    return querys.Where(x => x.店舗名.Contains(shopname));
-            //}
-            //else
-            //if (string.IsNullOrEmpty(shopname))
-            //{
-            //    return querys.Where(x => x.商品コード.Contains(productcode));
-            //}
-            //else
-            //{
-            //    return querys.Where(x => x.商品コード.Contains(productcode) && x.店舗名.Contains(shopname));
-            //}
-
-
             //※FK及び，コンテキストを定義していればこれでできるはず？
             /*context.zaikoes.Select(zaiko => new { zaiko.id,zaiko.JAN });*/
         }
